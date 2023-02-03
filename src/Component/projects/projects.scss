@@ -1,0 +1,29 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    @media screen and (max-width: 900px) {
+        grid-template-columns: 1fr;
+      }
+}
+.project-item {
+    background: #bbbbbb1e;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.6rem 0.5rem;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+    h5 {
+        font-weight: 600;
+    }
+    .content {
+        line-height: 18px;
+    }
+    .icon {
+        font-size: 2.5rem;
+    }
+}
+.project-item:hover {
+    background: #bbbbbb6a;
+    cursor: pointer;
+}

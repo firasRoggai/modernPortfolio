@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "sass-dev": "sass --watch --update --style=expanded src/style/scss:src/style/css",
+    "sass-prod": "sass --no-source-map --style=compressed src/style/scss:src/style/css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.7.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.26",
+    "@types/react-dom": "^18.0.9",
+    "@vitejs/plugin-react": "^3.0.0",
+    "sass": "^1.58.0",
+    "vite": "^4.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+.contact-container {
+    display: flex;
+}
+.contact-btn {
+    background: #bbbbbb1e;
+    border: none;
+    a {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
